@@ -1,2 +1,2 @@
-# Wiz_Danych162441
+# Wiz_Danych
 Repozytorium na zajęcia z wizualizacji danych
