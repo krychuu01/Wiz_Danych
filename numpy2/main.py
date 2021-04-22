@@ -107,14 +107,12 @@ import numpy as np
 # Wygeneruj w ten sposób jeszcze kombinacje 4x3 i 2x6.
 # Spłaszcz każdą z nich i wyświetl wyniki. Czy są identyczne?
 
-# a = np.arange(12)
-# b = np.arange(12)
-# c = np.arange(12)
+# a = np.array([12, 5, 1, 2, 3, 15, 48, 98, 41, 11, 13, 12])
 #
-# a = a.reshape(3,4)
-# b = b.reshape(4,3)
-# c = c.reshape(2,6)
+# macierz_1 = a.reshape(3,4)
+# macierz_2 = a.reshape(4,3)
+# macierz_3 = a.reshape(2,6)
 #
-# print(a.flat)
-# print(b.flat)
-# print(c.flat)
+# print(macierz_1.ravel())
+# print(macierz_2.ravel())
+# print(macierz_3.ravel())
